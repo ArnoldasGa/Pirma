@@ -1,0 +1,148 @@
+body {
+    font-size: 0;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+header {
+    padding: 5px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    background-color: lightgray;
+}
+
+header img {
+    max-width: 50%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header :nth-child(2) {
+    position: absolute;
+    right: 28%;
+    display: inline-block;
+    margin-top: 33px;
+}
+
+header :nth-child(3) {
+    position: absolute;
+    right: 15%;
+    display: inline-block;
+    margin-top: 33px;
+}
+
+header :nth-child(4) {
+    position: absolute;
+    right: 2%;
+    margin-top: 33px;
+    display: inline-block;
+}
+
+header a {
+    font-size: 30px;
+    text-align: center; 
+    /* border-style: solid;
+    border-radius: 1px;
+    border-color: black; */
+    margin: auto;
+    vertical-align: middle;
+}
+
+div :nth-child(1) {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    background-color: green;
+    width: 100%;
+    /* height: 120px */
+}
+
+div :nth-child(2) {
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 30px;
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    height: 120px
+}
+
+div :nth-child(3) {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: violet;
+    display: inline-block;
+    width: 75%;
+    height: 189px;
+}
+
+div :nth-child(4) {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 100px;
+}
+
+div :nth-child(5) {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 100px;
+}
+
+div :nth-child(6) {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rebeccapurple;
+    display: inline-block;
+    width: 75%;
+    height: 189px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color:yellow;
+}
+footer div {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    margin-right: 0.5%;
+}
+
+footer div:nth-last-child(2){
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    margin-right: 0%;
+}
+
+footer div:nth-last-child(1){
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+}
+
